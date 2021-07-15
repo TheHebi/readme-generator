@@ -12,7 +12,7 @@ function renderLicenseBadge(data) {
   }else{
     licenseBadge = ""
   }return
-}
+}   
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -28,7 +28,7 @@ function renderLicenseLink(data) {
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   if(data.license !== "No License"){
-    licenseSection = `## License`
+    licenseSection = `## License \n This project uses the ${data.license} License`
   }else{
     licenseSection = ``
   }
