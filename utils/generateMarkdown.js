@@ -17,7 +17,7 @@ function renderLicenseBadge(data) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
-  if(data.license !== "No Liscense"){
+  if(data.license !== "No License"){
     licenseLink = `* [License](#license)`
   }else{
     licenseLink = ``
