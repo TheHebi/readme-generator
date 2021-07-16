@@ -4,7 +4,7 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown.js");
 const { questions } = require("./utils/questions");
 
-// TODO: Create a function to write README file
+// Create a function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName,data,function(err){
       if(err){
@@ -14,7 +14,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// TODO: Create a function to initialize app
+// Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then(function (data) {
     writeToFile("output/readme.md", generateMarkdown(data))
