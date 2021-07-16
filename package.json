@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "![badmath](https://img.shields.io/github/repo-size/s/s) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  ## Table of Contents * [Installation](#installation) * [Instructions](#instructions) * [Contributors](#contributors) * [Questions](#questions) * [License](#license)",
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/TheHebi/readme-generator/issues"
   },
-  "homepage": "https://github.com/TheHebi/readme-generator#readme"
+  "homepage": "https://github.com/TheHebi/readme-generator#readme",
+  "devDependencies": {}
 }
