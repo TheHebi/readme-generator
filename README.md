@@ -9,6 +9,8 @@
 * [Questions](#questions)
 * [License](#license)
 
+A brief demonstration of the application in action can be found <a href="https://youtu.be/2iJcxEcTYeI" target="_blank">here</a>.
+
 ## Description:
 The purpose of this project was to create a CLI application that can take in user input, and use it to generate a `readme.md`. When you run the script it will run an inquirer prompt that will ask you a series of questions. Using your input from these questions a readme will be generated.
 
