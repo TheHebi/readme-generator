@@ -1,7 +1,13 @@
-
- # ReadMe Generator
+# ReadMe Generator
 ![badmath](https://img.shields.io/github/repo-size/s/s)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+```
+AS A developer,
+I WANT to be able to generate a README template,
+SO THAT I can quickly and easily create a README file for my GitHub repositories.
+```
+
  ## Table of Contents
 * [Installation](#installation)
 * [Instructions](#instructions)
